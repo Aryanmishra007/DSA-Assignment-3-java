@@ -1,65 +1,89 @@
-This project is a Java implementation of a campus navigation and data management system using core Data Structures.
-It includes tree structures for storing building information and graph algorithms for finding routes and planning utilities inside a campus.
+🌐 Campus Navigation & Utility Planner
+🚀 Data Structures Project – Trees & Graph Algorithms (Java)
 
-Features
-1. Building Management (Trees)
+A complete campus navigation system built using BST, AVL, Graphs, Dijkstra, Kruskal, and Expression Trees.
+This project models university buildings, finds optimal paths, and generates utility layouts.
 
-Stores building details using a Binary Search Tree (BST)
+✨ Features
+🌲 Tree Structures
 
-Self-balancing AVL Tree for better performance
+📌 Binary Search Tree (BST) for storing building records
 
-Inorder, Preorder, Postorder traversals
+⚖️ AVL Tree for auto-balancing
 
-Height comparison between BST and AVL
+🔍 Inorder, Preorder, Postorder Traversals
 
-2. Campus Graph
+📏 Height comparison (BST vs AVL)
 
-Represents campus buildings as graph nodes
+🗺️ Graph-Based Campus Map
 
-Weighted edges represent distances between buildings
+🏛️ Each building is a node
 
-Adjacency List + Adjacency Matrix representations
+🔗 Paths between buildings act as weighted edges
 
-BFS and DFS traversals
+📘 Adjacency List + 🧮 Adjacency Matrix
 
-Shortest path using Dijkstra’s Algorithm
+🔄 BFS & DFS Traversals
 
-Minimum cable layout using Kruskal’s MST
+🎯 Dijkstra Algorithm → Shortest Route
 
-3. Expression Tree
+⚡ Kruskal MST → Minimum Utility Layout
 
-Builds and evaluates an expression tree
+🧮 Expression Tree
 
-Used for sample energy bill calculations
+Builds expression tree from postfix format
 
-Output Includes
+Evaluates energy/utility cost expressions
 
-BST Traversals
+📸 Example Outputs
 
-AVL Traversals
+You can include screenshots like:
 
-BST vs AVL height comparison
+BST Inorder: [...]
+AVL Inorder: [...]
+BFS: [...]
+DFS: [...]
+Shortest Path: [...]
+MST: [...]
+Expression Result: [...]
 
-BFS and DFS order
 
-Shortest path between buildings
+Add your screenshots in a folder:
 
-MST edges with total cost
+/screenshots
 
-Expression evaluation result
-
-Technologies Used
-
-Java (JDK 17+)
-
-Core Data Structures
-
-Collections Framework
-
-How to Run
+🛠️ How to Run
 javac Main.java
 java Main
 
-Purpose
 
-This project is part of the Data Structures Assignment – Trees & Graphs, demonstrating practical usage of tree and graph algorithms in campus planning scenarios.
+Ensure all .java files (BST, AVL, Graph, ExpressionTree, etc.) are in the same directory.
+
+📁 Project Structure
+📦 Campus-Planner
+ ┣ 📂 src
+ ┃ ┣ 📜 Main.java
+ ┃ ┣ 📜 BST.java
+ ┃ ┣ 📜 AVL.java
+ ┃ ┣ 📜 Graph.java
+ ┃ ┗ 📜 ExpressionTree.java
+ ┣ 📂 screenshots
+ ┗ 📜 README.md
+
+⚙️ Tech Stack
+
+☕ Java (JDK 17+)
+
+📚 Collections Framework
+
+🔢 Tree & Graph Data Structures
+
+🎯 Purpose
+
+This project is created as part of ENCS205 – Data Structures Assignment 03 (Trees & Graphs).
+It demonstrates practical usage of core data structures in campus navigation and utility planning.
+
+👨‍🎓 Author
+
+Aryan Mishra
+B.Tech CSE (2025–26)
